@@ -11,3 +11,4 @@ __pycache__/
 .structrue
 .gitignore
 dist
+build
