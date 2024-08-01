@@ -1,22 +1,24 @@
 # STRCT: Structure Creator Tool 🚀
 
-
+<p align="center">
+  <img src="https://your-image-url-here.com/strct-logo.png" alt="STRCT Logo" width="200"/>
+</p>
 
 <p align="center">
-  <a href="https://badge.fury.io/py/strct">
-    <img src="https://badge.fury.io/py/strct.svg" alt="PyPI version" />
+  <a href="https://badge.fury.io/py/strct-tool">
+    <img src="https://badge.fury.io/py/strct-tool.svg" alt="PyPI version" />
   </a>
-  <a href="https://pypi.org/project/strct/">
-    <img src="https://img.shields.io/pypi/pyversions/strct.svg" alt="Python Versions" />
+  <a href="https://pypi.org/project/strct-tool/">
+    <img src="https://img.shields.io/pypi/pyversions/strct-tool.svg" alt="Python Versions" />
   </a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
   </a>
-  <a href="https://github.com/salah-alhajj/strct/actions">
-    <img src="https://github.com/salah-alhajj/strct/workflows/Build/badge.svg" alt="Build Status" />
+  <a href="https://github.com/yourusername/strct/actions">
+    <img src="https://github.com/yourusername/strct/workflows/Build/badge.svg" alt="Build Status" />
   </a>
-  <a href="https://codecov.io/gh/salah-alhajj/strct">
-    <img src="https://codecov.io/gh/salah-alhajj/strct/branch/main/graph/badge.svg" alt="codecov" />
+  <a href="https://codecov.io/gh/yourusername/strct">
+    <img src="https://codecov.io/gh/yourusername/strct/branch/main/graph/badge.svg" alt="codecov" />
   </a>
 </p>
 
@@ -37,7 +39,7 @@ STRCT is a powerful and flexible command-line tool designed to streamline your p
 You can install STRCT using pip:
 
 ```bash
-pip install strct
+pip install strct-tool
 ```
 
 ### Usage
@@ -138,7 +140,7 @@ We welcome contributions from the community! Whether it's bug fixes, new feature
 
 ## 🐛 Reporting Issues
 
-If you encounter any bugs or have feature requests, please file an issue on our [GitHub Issue Tracker](https://github.com/salah-alhajj/strct/issues). When reporting a bug, please include:
+If you encounter any bugs or have feature requests, please file an issue on our [GitHub Issue Tracker](https://github.com/yourusername/strct/issues). When reporting a bug, please include:
 
 - Your operating system name and version
 - Any details about your local setup that might be helpful in troubleshooting
@@ -177,7 +179,7 @@ STRCT is released under the MIT License. See the [LICENSE](LICENSE) file for mor
 
 ## 📬 Contact
 
-For support or queries, please open an issue on our [GitHub repository](https://github.com/salah-alhajj/strct/issues).
+For support or queries, please open an issue on our [GitHub repository](https://github.com/yourusername/strct/issues).
 
 ---
 
