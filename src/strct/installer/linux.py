@@ -8,9 +8,10 @@ def get_install_dir():
 def get_shell_config_file():
     home = Path.home()
     if "ZSH_VERSION" in os.environ:
-        return home / ".zshrc"
+        return os.path.join(home,".zshrc")
+         
     else:
-        return home / ".bashrc"
+        return os.path.join(home,".bashrc")
 
 def add_to_path(install_dir):
     config_file = get_shell_config_file()

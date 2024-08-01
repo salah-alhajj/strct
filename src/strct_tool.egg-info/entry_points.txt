@@ -1,2 +1,0 @@
-[console_scripts]
-strct = strct.main:main
