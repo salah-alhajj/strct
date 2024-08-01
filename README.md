@@ -1,8 +1,6 @@
 # STRCT: Structure Creator Tool 🚀
 
-<p align="center">
-  <img src="https://your-image-url-here.com/strct-logo.png" alt="STRCT Logo" width="200"/>
-</p>
+
 
 <p align="center">
   <a href="https://badge.fury.io/py/strct-tool">
