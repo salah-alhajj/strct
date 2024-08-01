@@ -1,7 +1,18 @@
+import os
 from setuptools import setup, find_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
+entry_points = {
+    'console_scripts': [
+        'strct=strct.main:main',
+    ],
+}
+
+# Add Windows-specific script
+if os.name == 'nt':  # 'nt' is the os.name for Windows
+    entry_points['console_scripts'].append('strct-script=strct.main:main')
+
 
 setup(
     name="strct-tool",
