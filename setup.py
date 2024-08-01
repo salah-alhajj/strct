@@ -16,7 +16,7 @@ if os.name == 'nt':  # 'nt' is the os.name for Windows
 
 setup(
     name="strct-tool",
-    version="0.4.6",
+    version="0.4.7",
     author="Salah alhajj",
     author_email="contact@contact.com",
     description="A tool for creating project structures from templates",

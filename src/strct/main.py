@@ -7,7 +7,7 @@ def main():
     user_home = Path(os.path.expanduser("~"))
     
     # Create a .strct directory in the user's home folder if it doesn't exist
-    strct_dir =  os.path.join(user_home , ".strct")
+    strct_dir =  user_home / ".strct"
     strct_dir.mkdir(exist_ok=True)
     commands_handler(strct_dir)
 
