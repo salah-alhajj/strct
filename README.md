@@ -38,6 +38,11 @@ You can install STRCT using pip:
 pip install strct-tool
 ```
 
+Windows: 
+```bash
+pip install strct-tool --user
+```
+or Run cmd as Adminstrator
 ### Usage
 
 After installation, you can use STRCT from the command line:
