@@ -1,7 +1,7 @@
 from pathlib import Path
 import sys
 
-from commands.version import get_version
+from .version import get_version
 
 from .add import add_new_template
 from .delete import delete_template
