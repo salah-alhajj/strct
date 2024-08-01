@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="strct-tool",
-    version="0.4.0",
+    version="0.4.1",
     author="Salah alhajj",
     author_email="contact@contact.com",
     description="A tool for creating project structures from templates",

@@ -1,5 +1,5 @@
 from pathlib import Path
-from .copy import copy_template
+from strct.commands.copy import copy_template
 
 def add_new_template(script_dir,template_name: str, source_path: Path):
     template_dir = script_dir / 'templates'
