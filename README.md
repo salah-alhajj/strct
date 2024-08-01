@@ -12,9 +12,7 @@
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
   </a>
-  <a href="https://github.com/salah-alhajj/strct/actions">
-    <img src="https://github.com/salah-alhajj/strct/workflows/Build/badge.svg" alt="Build Status" />
-  </a>
+  
   <a href="https://codecov.io/gh/salah-alhajj/strct">
     <img src="https://codecov.io/gh/salah-alhajj/strct/branch/main/graph/badge.svg" alt="codecov" />
   </a>
