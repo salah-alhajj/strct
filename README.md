@@ -1,5 +1,7 @@
 # STRCT: Structure Creator Tool 🚀
 
+
+
 <p align="center">
   <a href="https://badge.fury.io/py/strct">
     <img src="https://badge.fury.io/py/strct.svg" alt="PyPI version" />
@@ -18,25 +20,29 @@
   </a>
 </p>
 
-Supercharge your project initialization with the power of STRCT! 🐍💨
+STRCT is a powerful and flexible command-line tool designed to streamline your project initialization process. Say goodbye to manual directory creation and hello to consistent, scalable project structures! 🎉
 
 ## 🌟 Features
 
-- 🚀 Automatically create project structures from predefined templates
-- 📁 Add custom templates from existing directories
+- 🚀 Create project structures from predefined templates
+- 🔧 Add custom templates from existing directories
 - 🎯 Specify custom destination paths for your projects
 - 📋 List and manage available templates
-- 🔧 Cross-platform compatibility (Windows, macOS, Linux)
+- 🔄 Cross-platform compatibility (Windows, macOS, Linux)
 
 ## 🚀 Quick Start
 
 ### Installation
+
+You can install STRCT using pip:
 
 ```bash
 pip install strct
 ```
 
 ### Usage
+
+After installation, you can use STRCT from the command line:
 
 1. Create a new project structure:
    ```
@@ -53,6 +59,72 @@ pip install strct
    strct add <template_name> <source_path>
    ```
 
+4. Delete a template:
+   ```
+   strct delete <template_name>
+   ```
+
+5. Get help:
+   ```
+   strct help
+   ```
+
+## 📚 Detailed Usage
+
+### Creating a Project Structure
+
+To create a new project structure, use the following command:
+
+```bash
+strct <structure_type> [destination_path]
+```
+
+- `<structure_type>`: The name of the template you want to use.
+- `[destination_path]`: Optional. The path where you want to create the project. If not specified, the current directory will be used.
+
+Example:
+```bash
+strct python-flask my_new_project
+```
+
+This command will create a new Flask project structure in a directory called `my_new_project`.
+
+### Listing Available Templates
+
+To see all available templates, use:
+
+```bash
+strct list
+```
+
+This will display a list of all templates you can use to create project structures.
+
+### Adding a New Template
+
+To add a new template based on an existing project structure:
+
+```bash
+strct add <template_name> <source_path>
+```
+
+- `<template_name>`: The name you want to give to your new template.
+- `<source_path>`: The path to the existing project structure you want to use as a template.
+
+Example:
+```bash
+strct add my-react-template ./existing-react-project
+```
+
+### Deleting a Template
+
+To remove a template:
+
+```bash
+strct delete <template_name>
+```
+
+This will permanently remove the specified template.
+
 ## 🛠 How It Works
 
 1. **Template Selection**: Choose from predefined or custom project templates.
@@ -60,24 +132,17 @@ pip install strct
 3. **Customization**: Easily modify the created structure to fit your specific needs.
 4. **Reusability**: Save time on future projects by reusing your templates.
 
-## 🔧 Configuration
+## 🤝 Contributing
 
-The `settings.yaml` file in your project root controls the STRCT behavior:
+We welcome contributions from the community! Whether it's bug fixes, new features, or documentation improvements, your help is appreciated. Please see our [Contributing Guide](CONTRIBUTING.md) for more details on how to get started.
 
-```yaml
-templates:
-  path: '~/.strct/templates'
+## 🐛 Reporting Issues
 
-exclude:
-  files:
-    - '.DS_Store'
-    - 'Thumbs.db'
-  dirs:
-    - '.git'
-    - '__pycache__'
+If you encounter any bugs or have feature requests, please file an issue on our [GitHub Issue Tracker](https://github.com/salah-alhajj/strct/issues). When reporting a bug, please include:
 
-# ... (other settings)
-```
+- Your operating system name and version
+- Any details about your local setup that might be helpful in troubleshooting
+- Detailed steps to reproduce the bug
 
 ## 🤔 FAQs
 
@@ -96,9 +161,10 @@ Use the `strct add` command to create a new template from an existing directory 
 Absolutely! STRCT helps maintain consistency across team projects by using shared templates.
 </details>
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
+<details>
+<summary>Can I use STRCT in my CI/CD pipeline?</summary>
+Yes, STRCT can be easily integrated into CI/CD pipelines to ensure consistent project structures across your builds.
+</details>
 
 ## 📜 License
 
