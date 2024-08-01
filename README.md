@@ -12,11 +12,11 @@
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
   </a>
-  <a href="https://github.com/yourusername/strct/actions">
-    <img src="https://github.com/yourusername/strct/workflows/Build/badge.svg" alt="Build Status" />
+  <a href="https://github.com/salah-alhajj/strct/actions">
+    <img src="https://github.com/salah-alhajj/strct/workflows/Build/badge.svg" alt="Build Status" />
   </a>
-  <a href="https://codecov.io/gh/yourusername/strct">
-    <img src="https://codecov.io/gh/yourusername/strct/branch/main/graph/badge.svg" alt="codecov" />
+  <a href="https://codecov.io/gh/salah-alhajj/strct">
+    <img src="https://codecov.io/gh/salah-alhajj/strct/branch/main/graph/badge.svg" alt="codecov" />
   </a>
 </p>
 
@@ -138,7 +138,7 @@ We welcome contributions from the community! Whether it's bug fixes, new feature
 
 ## 🐛 Reporting Issues
 
-If you encounter any bugs or have feature requests, please file an issue on our [GitHub Issue Tracker](https://github.com/yourusername/strct/issues). When reporting a bug, please include:
+If you encounter any bugs or have feature requests, please file an issue on our [GitHub Issue Tracker](https://github.com/salah-alhajj/strct/issues). When reporting a bug, please include:
 
 - Your operating system name and version
 - Any details about your local setup that might be helpful in troubleshooting
@@ -177,7 +177,7 @@ STRCT is released under the MIT License. See the [LICENSE](LICENSE) file for mor
 
 ## 📬 Contact
 
-For support or queries, please open an issue on our [GitHub repository](https://github.com/yourusername/strct/issues).
+For support or queries, please open an issue on our [GitHub repository](https://github.com/salah-alhajj/strct/issues).
 
 ---
 
