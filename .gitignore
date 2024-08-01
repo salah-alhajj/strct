@@ -1,15 +1,12 @@
-# Ignore all files and folders inside the 'template' directory
 templates/**
 
-# But do not ignore the 'templates' directory itself
 !templates/
 
-# Ignore the '.vscode' directory
 .vscode/
 
-# Ensure the '.gitignore' file is not ignored
-!.gitignore
 
-# Ignore Python cache files
 __pycache__/
 *.pyc
+
+.structrue
+.gitignore

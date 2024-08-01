@@ -1,8 +1,7 @@
 from pathlib import Path
 from .copy import copy_template
 
-def add_new_template(template_name: str, source_path: Path):
-    script_dir = Path(__file__).parent.parent
+def add_new_template(script_dir,template_name: str, source_path: Path):
     template_dir = script_dir / 'templates'
     new_template_path = template_dir / template_name
 
