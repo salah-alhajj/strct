@@ -1,6 +1,5 @@
 import os
 from setuptools import setup, find_packages
-
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 entry_points = {
@@ -16,7 +15,7 @@ if os.name == 'nt':  # 'nt' is the os.name for Windows
 
 setup(
     name="strct-tool",
-    version="0.4.7",
+    version="0.4.8",
     author="Salah alhajj",
     author_email="contact@contact.com",
     description="A tool for creating project structures from templates",
