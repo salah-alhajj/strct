@@ -1,7 +1,5 @@
 # STRCT: Structure Creator Tool 🚀
 
-
-
 <p align="center">
   <a href="https://badge.fury.io/py/strct-tool">
     <img src="https://badge.fury.io/py/strct-tool.svg" alt="PyPI version" />
@@ -12,13 +10,12 @@
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
   </a>
-
   <a href="https://codecov.io/gh/salah-alhajj/strct">
     <img src="https://codecov.io/gh/salah-alhajj/strct/branch/main/graph/badge.svg" alt="codecov" />
   </a>
 </p>
 
-STRCT is a powerful and flexible command-line tool designed to streamline your project initialization process. Say goodbye to manual directory creation and hello to consistent, scalable project structures! 🎉
+STRCT is a powerful and flexible command-line tool designed to streamline your project initialization process. Say goodbye to manual directory creation and hello to consistent, scalable project structures with integrated Git support! 🎉
 
 ## 🌟 Features
 
@@ -27,6 +24,7 @@ STRCT is a powerful and flexible command-line tool designed to streamline your p
 - 🎯 Specify custom destination paths for your projects
 - 📋 List and manage available templates
 - 🔄 Cross-platform compatibility (Windows, macOS, Linux)
+- 🌿 Integrated Git support for template management
 
 ## 🚀 Quick Start
 
@@ -42,7 +40,8 @@ for Windows:
 ```bash
 pip install strct-tool --user
 ```
-or Run cmd as Adminstrator and use first command
+or Run cmd as Administrator and use first command
+
 ### Usage
 
 After installation, you can use STRCT from the command line:
@@ -67,7 +66,12 @@ After installation, you can use STRCT from the command line:
    strct delete <template_name>
    ```
 
-5. Get help:
+5. Perform Git operations on a template:
+   ```
+   strct git <template_name> <operation> [args]
+   ```
+
+6. Get help:
    ```
    strct help
    ```
@@ -128,12 +132,52 @@ strct delete <template_name>
 
 This will permanently remove the specified template.
 
+### Git Operations on Templates
+
+STRCT supports Git operations on templates. The syntax for Git operations is:
+
+```
+strct git <template_name> <operation> [args]
+```
+
+- `<template_name>`: The name of the template you want to perform Git operations on.
+- `<operation>`: The Git operation you want to perform (e.g., init, add, commit, log, status, etc.).
+- `[args]`: Additional arguments for the Git operation (optional).
+
+Examples:
+
+1. Initialize a Git repository for a template:
+   ```
+   strct git my-template init
+   ```
+
+2. Add files to the staging area:
+   ```
+   strct git my-template add .
+   ```
+
+3. Commit changes:
+   ```
+   strct git my-template commit -m "Update template structure"
+   ```
+
+4. View commit history:
+   ```
+   strct git my-template log --oneline -n5
+   ```
+
+5. Check repository status:
+   ```
+   strct git my-template status
+   ```
+
 ## 🛠 How It Works
 
 1. **Template Selection**: Choose from predefined or custom project templates.
 2. **Structure Creation**: STRCT generates the directory structure and files based on the selected template.
-3. **Customization**: Easily modify the created structure to fit your specific needs.
-4. **Reusability**: Save time on future projects by reusing your templates.
+3. **Git Integration**: Optionally manage Git repositories for your templates.
+4. **Customization**: Easily modify the created structure to fit your specific needs.
+5. **Reusability**: Save time on future projects by reusing your templates.
 
 ## 🤝 Contributing
 
